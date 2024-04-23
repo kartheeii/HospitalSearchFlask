@@ -1,0 +1,56 @@
+
+.header{
+    padding: 5px 120px;
+    width: 150px;
+    height: 70px;
+    background-color: #236B8E; 
+}
+
+.border{
+    padding: 80px 50px;
+    width: 400px;
+    height: 450px;
+    border: 1px solid #FFFFFF;
+    border-radius: 0px;
+    background-color:shadow;
+}
+
+.btn {
+    padding: 10px 40px;
+    background-color: #236B8E; 
+    color: #FFFFFF;
+    font-style: Monospace;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.textbox{
+    padding: 10px 40px;
+    background-color:cadetblue; 
+    text-color: #FFFFFF;
+    border-radius: 10px;
+}
+    
+::placeholder {
+    color: #FFFFFF;
+    opacity: 1;
+    font-style: Monospace;
+    font-weight: bold;
+}
+
+.word{
+    color: #FFFFFF;
+    font-style: Monospace;
+    font-weight:bolder;
+}
+
+.bottom{
+    color: #236B8E;
+    font-style: Monospace;
+    font-weight: bold;
+}
+.submit
+{
+    padding:10 px 40px;
+    font-style:Monospace;
+}
