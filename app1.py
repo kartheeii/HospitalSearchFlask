@@ -14,7 +14,7 @@ def get_hospitals():
     
     URL = "https://discover.search.hereapi.com/v1/discover"
     api_key = 'gyOHH09M0UHJcE-3cIZEoRyyKWlyvJNr6J_kd7gdIkk' # Acquire from developer.here.com
-    query = 'hospital'
+    query = 'school'
     limit = 5
 
     PARAMS = {
@@ -26,7 +26,7 @@ def get_hospitals():
 
     r = requests.get(url=URL, params=PARAMS)
     data = r.json()
-
+    print(data)
     hospitals = []
     for item in data.get('items', []):
         hospital = {
