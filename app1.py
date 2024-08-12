@@ -13,7 +13,7 @@ def get_hospitals():
     longitude = request.json['longitude']
     
     URL = "https://discover.search.hereapi.com/v1/discover"
-    api_key = 'gyOHH09M0UHJcE-3cIZEoRyyKWlyvJNr6J_kd7gdIkk' # Acquire from developer.here.com
+    api_key = '"YOUR API KEY "' # Acquire from developer.here.com
     query = 'school'
     limit = 5
 
