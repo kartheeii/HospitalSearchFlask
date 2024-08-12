@@ -14,7 +14,7 @@ def get_hospitals():
     
     URL = "https://discover.search.hereapi.com/v1/discover"
     api_key = '"YOUR API KEY "' # Acquire from developer.here.com
-    query = 'school'
+    query = 'hospitals'
     limit = 5
 
     PARAMS = {
