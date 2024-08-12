@@ -1,4 +1,6 @@
 Hospital Finder Web Application
+
+
 Overview
 This is a Flask-based web application that allows users to search for nearby hospitals based on their current location or manually entered coordinates. Users can also search for hospitals by the disease they wish to treat. The application uses the HERE API to fetch hospital information and displays it on a simple web page.
 
