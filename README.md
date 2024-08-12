@@ -31,7 +31,7 @@ Clone the Repository:
 
 bash
 Copy code
-git clone https://github.com/kartheeii/hospital-finder.gi
+git clone https://github.com/kartheeii/HospitalSearchFlask.git
 cd hospital-finder
 Get HERE API Key:
 
